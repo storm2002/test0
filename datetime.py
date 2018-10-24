@@ -1,5 +1,7 @@
+#!/usr/bin/env python2.7
 import datetime
 
 d = datetime.date.today()
 
-print (d)
+print (d.day)
+print (d.weekday())
